@@ -1,0 +1,51 @@
+.parcelas-eliminadas-container {
+    padding: 20px;
+  }
+  
+  .parcelas-eliminadas-container h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .no-data {
+    color: #7f8c8d;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .parcelas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .parcela-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .parcela-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+  }
+  
+  .parcela-info p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .sensor-data {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #eee;
+  }
+  
+  .sensor-data h4 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #3498db;
+  }
