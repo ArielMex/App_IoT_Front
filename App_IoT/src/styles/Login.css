@@ -25,6 +25,7 @@
     padding: 1rem;
     background-color: white;
     max-width: 700px;
+    animation: fadeIn 0.3s ease-out;
   }
   
   .illustration-section {
@@ -43,13 +44,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(2, 11, 45, 0.7);
   }
   
   /* Card de formulario */
   .form-container {
     width: 100%;
-    max-width: 380px;
+    max-width: 400px;
     padding: 1.8rem;
     border-radius: 10px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
@@ -267,6 +267,17 @@
     to {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(1px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(1px);
     }
   }
   
