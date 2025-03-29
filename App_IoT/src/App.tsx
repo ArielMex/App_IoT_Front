@@ -3,6 +3,8 @@ import Dashboard from "./pages/Dashboard";
 import GraficosPage from "./pages/GraficosPage";
 import ParcelasEliminadasPage from "./pages/ParcelasEliminadasPage";
 import "./App.css";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
           <Route path="graficos" element={<GraficosPage />} />
           <Route path="parcelas-eliminadas" element={<ParcelasEliminadasPage parcelas={[]} loading={false} />} />
         </Route>
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
