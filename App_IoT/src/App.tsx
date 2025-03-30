@@ -11,11 +11,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Dashboard />}>
-          <Route path="graficos" element={<GraficosPage />} />
-          <Route path="parcelas-eliminadas" element={<ParcelasEliminadasPage parcelas={[]} loading={false} />} />
+          <Route path="Graficos" element={<GraficosPage />} />
+          <Route path="Parcelas-eliminadas" element={<ParcelasEliminadasPage parcelas={[]} loading={false} />} />
         </Route>
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Register" element={<Register />} />
       </Routes>
     </Router>
   );
