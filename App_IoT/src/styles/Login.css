@@ -57,17 +57,17 @@
   }
   
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 700;
     color: var(--primary-dark);
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
   
   .form-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--text-dark);
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     text-align: center;
     font-weight: 600;
   }
@@ -78,7 +78,7 @@
   
   .input-group label {
     display: block;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.2rem;
     color: var(--text-medium);
     font-size: 0.9rem;
     font-weight: 500;
